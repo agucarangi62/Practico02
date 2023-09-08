@@ -67,9 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CargarVenta.aspx" />
+    <Content Include="ConsultarVenta.aspx" />
+    <Content Include="Menu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CargarVenta.aspx.cs">
+      <DependentUpon>CargarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CargarVenta.aspx.designer.cs">
+      <DependentUpon>CargarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarVenta.aspx.cs">
+      <DependentUpon>ConsultarVenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsultarVenta.aspx.designer.cs">
+      <DependentUpon>ConsultarVenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
